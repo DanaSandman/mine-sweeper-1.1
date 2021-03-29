@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body onload="init()" onload="lives()">
+    <h1>Mine Sweeper</h1>
+
+    <div class="levels">
+        <button class="levelBtn" onclick="levelBtnClicked(4)">Easy</button>
+        <button class="levelBtn" onclick="levelBtnClicked(8)">Mediume</button>
+        <button class="levelBtn" onclick="levelBtnClicked(12)">Hard</button>
+    </div>
+    <div>
+        <h5 class="time"></h5>
+    </div>
+    <div>
+        <h3 class="smiley"> </h3>
+        <h3 class="lives"> </h3>
+    </div>
+    <div class="board"></div>
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/mine.js"></script>
+</body>
+
+</html>

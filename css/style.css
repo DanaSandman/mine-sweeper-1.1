@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(189, 207, 225);
+    font-family: Tahoma;
+    font-size: large;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: Tahoma;
+    color: #f0fc08;
+    background: #d2acf5;
+    box-shadow: 0px 0px 16px #c80de0;
+    border-radius: 2px;
+    z-index: 3;
+    border: 2px solid;
+    transition: all 1s ease-in-out;
+    border-image: linear-gradient(#360154, #d442d5) 30;
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    margin: auto;
+}
+
+table {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+
+td {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    color: #f0fc08;
+    width: 80px;
+    height: 65px;
+    background: #cda1f5;
+    box-shadow: 0px 0px 16px #c80de0;
+    border-radius: 2px;
+    z-index: 3;
+    border: 2px solid;
+    transition: all 1s ease-in-out;
+    border-image: linear-gradient(#360154, #d442d5) 30;
+}
+
+.levels {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+
+.levelBtn {
+    font-family: Tahoma;
+    color: #f0fc08;
+    width: 135px;
+    height: 65px;
+    background: #d2acf5;
+    box-shadow: 0px 0px 16px #c80de0;
+    border-radius: 2px;
+    z-index: 3;
+    border: 2px solid;
+    transition: all 1s ease-in-out;
+    border-image: linear-gradient(#360154, #d442d5) 30;
+}
+
+.smiley {
+    cursor: pointer;
+    border: 0px;
+    background-color: initial;
+    text-align: center;
+    margin: auto;
+}
+
+h5 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+    color: #460446;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: yellow;
+    opacity: 50%;
+}
+
+img {
+    max-width: 80px;
+}
+
+.boardClickedBtn {
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    color: #f0fc08;
+    width: 80px;
+    height: 65px;
+    background: #7fd0cc;
+    box-shadow: 0px 0px 16px #c80de0;
+    border-radius: 2px;
+    z-index: 3;
+    border: 2px solid;
+    transition: all 1s ease-in-out;
+    border-image: linear-gradient(#360154, #d442d5) 30;
+}
+
+.boardBtn {
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    color: #f0fc08;
+    width: 80px;
+    height: 65px;
+    background: #cda1f5;
+    box-shadow: 0px 0px 16px #c80de0;
+    border-radius: 2px;
+    z-index: 3;
+    border: 2px solid;
+    transition: all 1s ease-in-out;
+    border-image: linear-gradient(#360154, #d442d5) 30;
+}
